@@ -7,6 +7,9 @@ public class Main {
         int strike = 0; //입력한 값의 strike를 저장받을 변수
         int ball = 0; //입력한 값의 ball을 입력받을 변수
 
+
+        System.out.println("asdsadsadsadasdsadsadsa");
+        System.out.println("dssdds");
         System.out.println("변경됨123456789");
 
         Scanner s = new Scanner(System.in);
