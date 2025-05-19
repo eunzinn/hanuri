@@ -8,8 +8,8 @@ public class Main {
         int ball = 0; //입력한 값의 ball을 입력받을 변수
 
 
-
-        System.out.println("변경됨987654321");
+        System.out.println("asdsadsadsadasdsadsadsa");
+        System.out.println("dssdds");
 
         Scanner s = new Scanner(System.in);
         while(true) {
