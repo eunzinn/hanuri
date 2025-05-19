@@ -8,8 +8,18 @@ public class Main {
         int ball = 0; //입력한 값의 ball을 입력받을 변수
 
 
+        System.out.println("추가된부분1");
+        System.out.println("추가된부분2");
+        System.out.println("추가된부분3");
+        System.out.println("추가된부분4");
+        System.out.println("추가된부분5");
+        System.out.println("추가된부분6");
+        System.out.println("추가된부분7");
+        System.out.println("추가된부분8");
 
-        System.out.println("변경됨987654321");
+
+
+        System.out.println("변경됨123456789");
 
         Scanner s = new Scanner(System.in);
         while(true) {
@@ -23,19 +33,6 @@ public class Main {
                         System.out.println("중복된 값을 입력했습니다.");
                         i--;
                         break;
-                    }
-                }
-            }
-            //과정3 : 유저가 입력한 숫자와 정답숫자를 비교하여 Strike인지 Ball인지 구분한다.
-            for(int i = 0; i < numArr.length; i++) {
-                for(int j = 0; j < inputArr.length; j++) {
-                    //numArr의 i번째 인덱스와 inputArr의 모든 원소들을 비교
-                    if(numArr[i] == inputArr[j] && i == j) {
-                        //같은 숫자가 있고 인덱스도 같으면 스트라이크
-                        strike++;
-                    }else if(numArr[i] == inputArr[j] && i != j) {
-                        //같은 숫자만 있으면 볼
-                        ball++;
                     }
                 }
             }
