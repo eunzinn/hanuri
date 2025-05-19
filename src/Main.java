@@ -23,8 +23,13 @@ public class Main {
                 }
             }
 
-            System.out.println("추가됨");
-            System.out.println("추가됨");
+            System.out.println("추가됨1");System.out.println("추가됨1");System.out.println("추가됨1");System.out.println("추가됨1");
+             System.out.println("추가됨1");System.out.println("추가됨1");System.out.println("추가됨1");System.out.println("추가됨1");
+             System.out.println("추가됨1");System.out.println("추가됨1");System.out.println("추가됨1");System.out.println("추가됨1");
+             System.out.println("추가됨1");System.out.println("추가됨1");System.out.println("추가됨1");System.out.println("추가됨1");
+            
+            System.out.println("추가됨1");
+            System.out.println("추가됨2");
             System.out.println("추가됨");
             System.out.println("추가됨");
 
@@ -33,8 +38,7 @@ public class Main {
                 System.out.println("정답! !@#!@!#@!#!#!#@!@!#!#");
                 break;
             }
-            strike = 0;
-            ball = 0;
+
         }
     }
 }
