@@ -7,11 +7,6 @@ public class Main {
         int strike = 0; //입력한 값의 strike를 저장받을 변수
         int ball = 0; //입력한 값의 ball을 입력받을 변수
 
-
-        System.out.println("asdsadsadsadasdsadsadsa");
-        System.out.println("dssdds");
-        System.out.println("변경됨123456789");
-
         Scanner s = new Scanner(System.in);
         while(true) {
             //과정2 : inputArr.length만큼 반복해 유저가 입력한 숫자를 순서대로 inputArr에 넣는다.
@@ -28,9 +23,14 @@ public class Main {
                 }
             }
 
+            System.out.println("추가됨");
+            System.out.println("추가됨");
+            System.out.println("추가됨");
+            System.out.println("추가됨");
+
             System.out.println(strike + "스트라이크" + ball + "볼");
             if(strike == 3) {
-                System.out.println("정답!");
+                System.out.println("정답! !@#!@!#@!#!#!#@!@!#!#");
                 break;
             }
             strike = 0;
