@@ -23,18 +23,19 @@ public class Main {
                 }
             }
 
-            System.out.println("추가됨");
-            System.out.println("추가됨");
-            System.out.println("추가됨");
-            System.out.println("추가됨");
+            System.out.println("추가됨1");
+            System.out.println("추가됨2");
+            System.out.println("추가됨3");
+            System.out.println("추가됨4");
+            System.out.println("추가됨5");
+            System.out.println("추가됨6");
+            System.out.println("추가됨7");
+            System.out.println("추가됨8");
 
             System.out.println(strike + "스트라이크" + ball + "볼");
-            if(strike == 3) {
-                System.out.println("정답! !@#!@!#@!#!#!#@!@!#!#");
-                break;
-            }
-            strike = 0;
-            ball = 0;
+
+            strike = 1;
+            ball = 2;
         }
     }
 }
